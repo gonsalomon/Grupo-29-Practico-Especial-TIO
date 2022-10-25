@@ -16,3 +16,6 @@ img{
     max-width: var(--max-size);
     max-height: var(--max-size);
 }
+h1{
+    color: red;
+}
