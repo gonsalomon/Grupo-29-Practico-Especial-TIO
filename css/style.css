@@ -1,0 +1,18 @@
+*{
+    background-color: #dbbfc7;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    --max-size: 500px;
+    
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: var(--max-size);
+    max-height: var(--max-size);
+}
