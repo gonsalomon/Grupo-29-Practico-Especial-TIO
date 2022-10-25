@@ -17,5 +17,8 @@ img{
     max-height: var(--max-size);
 }
 h1{
-    color: green;
+   
+
+    color: rgb(255, 255, 0);
+
 }
