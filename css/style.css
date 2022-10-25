@@ -4,6 +4,7 @@ body{
     text-align: center;
     align-items: center;
     --max-size: 500px;
+    background-color: #FBC4D6;
 }
 ul li{
     list-style: none;
@@ -11,4 +12,7 @@ ul li{
 img{
     max-width: var(--max-size);
     max-height: var(--max-size);
+}
+nav .navbar .navbar-expand-lg .bg-light .navbar-nav{
+    color: red;
 }
