@@ -9,6 +9,9 @@ body{
     --max-size: 500px;
     
 }
+nav li a:hover {
+    background-color: #d194a7;
+}
 ul li{
     list-style: none;
 }
