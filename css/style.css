@@ -1,9 +1,8 @@
 *{
-    background-color: none;
+    background-color: #dbbfc7;
 }
-.body{
+body{
     display: flex;
-    background-image:url("../images/IMGFondo.jpg");
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -20,8 +19,9 @@ img{
     max-width: var(--max-size);
     max-height: var(--max-size);
 }
-h1, h2{
+h1{
+   
 
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 0);
 
 }
