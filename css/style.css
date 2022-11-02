@@ -4,7 +4,7 @@
 }
 .body{
     display: flex;
-    background-image: url("../images/IMGFondo2.jpg");
+    background-image: url("../images/IMGFondo.jpg");
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -14,10 +14,12 @@
 nav li a:hover {
     background-color: #ff0000;
 }
-ul li{
+
+  div ul li{
     list-style: none;
    font-weight: bold;
     font-size: 25px;
+    
 }
 img{
     max-width: var(--max-size);
