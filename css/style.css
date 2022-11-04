@@ -1,17 +1,30 @@
-*{
-    background-color: #dbbfc7;
+
+*{ 
+
+    background-color:none;
 }
-body{
+
+.body{
     display: flex;
+    background-image:url("../images/IMGFondo.jpg");
+
     flex-direction: column;
     text-align: center;
     align-items: center;
     --max-size: 500px;
     
 }
-ul li{
-    list-style: none;
+nav li a:hover {
+    background-color: #ccc1c1;
 }
+
+  div ul li{
+    list-style: none;
+
+   font-weight: bold;
+    font-size: 25px;
+    
+  }
 img{
     max-width: var(--max-size);
     max-height: var(--max-size);
@@ -19,6 +32,9 @@ img{
 h1{
    
 
-    color: yellow;
+    color: rgb(255, 255, 0);
 
+h1, h2{
+    color: rgb(255, 0, 0);
 }
+
