@@ -29,10 +29,6 @@ img{
     max-width: var(--max-size);
     max-height: var(--max-size);
 }
-h1{
-   
-
-    color: rgb(255, 255, 0);
 
 h1, h2{
     color: rgb(255, 0, 0);
